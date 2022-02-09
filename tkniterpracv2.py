@@ -4,15 +4,23 @@ import tkinter.font as tkFont
 def test():
     print("it worked")
 def ex1():
-    a
+    print("1")
 def ex2():
+    print("2")
 def ex3():
+    print("3")
 def ex4():
+    print("4")
 def ex5():
+    print("5")
 def ex6():
+    print("6")
 def ex7():
+    print("7")
 def ex8():
+    print("8")
 def ex9():
+    print("9")
 height=3
 width=5
 root = Tk()
@@ -30,5 +38,13 @@ num8 = Button(root, text="8", height=height, width=width, command = ex8)
 num9 = Button(root, text="9", height=height, width=width, command = ex9)
 
 num1.place(x=100, y=100)
+num2.place(x=150, y=100)
+num3.place(x=200, y=100)
+num4.place(x=100, y=150)
+num5.place(x=150, y=150)
+num6.place(x=200, y=150)
+num7.place(x=100, y=200)
+num8.place(x=150, y=200)
+num9.place(x=200, y=200)
 
 root.mainloop()
