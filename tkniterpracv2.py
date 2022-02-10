@@ -531,12 +531,6 @@ def changetext():
 lnum.text = StringVar()
 
 
-
-
-
-
-
-
 yrow1 = 50
 yrow2 = 110
 yrow3 = 170
